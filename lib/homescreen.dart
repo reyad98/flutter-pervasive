@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
 import 'package:final_project/caresoul.dart';
-import 'package:final_project/home.dart';
-import 'package:final_project/login.dart';
+//import 'package:final_project/home.dart';
+//import 'package:final_project/login.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                 //fit: BoxFit.fill
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               Text(
                 'Triva Info',
@@ -52,7 +52,6 @@ class HomeScreen extends StatelessWidget {
                     color: Color.fromARGB(255, 3, 126, 116),
                     fontWeight: FontWeight.bold),
               ),
-
               Container(
                 padding: const EdgeInsets.all(8),
                 child: const Text(
